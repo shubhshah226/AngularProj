@@ -1,0 +1,7 @@
+{
+    "/api/*":{
+        "target":"https://shubhshah226.github.io/jsonapi/db.json",
+        "secure":true,
+        "logLevel":"debug"
+    }
+}

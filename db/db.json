@@ -1,0 +1,114 @@
+{
+  "restaurants": [
+    {
+      "name": "Mac Donalds",
+      "email": "mcd@test.com",
+      "address": "Motera",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "KFC",
+      "email": "KFC@test.com",
+      "address": "Sabarmati"
+    },
+    {
+      "id": 3,
+      "name": "Sankalp",
+      "email": "sanklap@test.com",
+      "address": "Vijay Cross Road"
+    },
+    {
+      "name": "Topaz",
+      "email": "topaz226@g.com",
+      "address": "Motera",
+      "id": 4
+    },
+    {
+      "name": "Dominos Pizza",
+      "email": "domino@test.com",
+      "address": "Chandkheda",
+      "id": 5
+    },
+    {
+      "name": "Lapinoz Pizza",
+      "email": "lapinoz@gmail.com",
+      "address": "Motera",
+      "id": 6
+    },
+    {
+      "name": "pizza zone",
+      "email": "pizzazone@yahoo.in",
+      "address": "chandkheda",
+      "id": 7
+    },
+    {
+      "name": "Zero Degrees",
+      "email": "zerodegrees@gmail.com",
+      "address": "SG Highway",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "shubh shah",
+      "email": "shubh@226gmail.com",
+      "password": "shubhshah",
+      "id": 1
+    },
+    {
+      "name": "jinansh",
+      "email": "jinansh@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "password": "xyz123",
+      "id": 3
+    },
+    {
+      "name": "abcd",
+      "email": "abcd@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "Rushabh",
+      "email": "rushabh@gmail.com",
+      "password": "rushabh",
+      "id": 6
+    },
+    {
+      "name": "roman",
+      "email": "roman@gmail.com",
+      "password": "roman",
+      "id": 7
+    },
+    {
+      "name": "Surali Shah",
+      "email": "surali11@gmail.com",
+      "password": "Surali@1711",
+      "id": 8
+    },
+    {
+      "name": "jinansh",
+      "email": "jinansh179@gmail.com",
+      "password": "jinansh",
+      "id": 9
+    },
+    {
+      "name": "akshat",
+      "email": "akshat@gmail.com",
+      "password": "abc",
+      "id": 10
+    }
+  ],
+  "admin": [
+    {
+      "usernam": "admin",
+      "password": "admin"
+    }
+  ]
+}

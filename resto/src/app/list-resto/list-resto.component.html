@@ -1,0 +1,24 @@
+<br><br><button style="position: absolute;right: 10%;" type="button" class="btn btn-danger" (click)="logout()">LogOut</button>
+<button style=" position: absolute;left: 40%; top:115px;" type="button" class="btn btn-dark"(click)="addresto()">Add Restaurant</button>
+<h1>Restaurant Listing !</h1>
+<br><br>
+<table border="2px" style="margin-top: 40px;" class="table table-bordered">
+    <tr>
+      <th class="thead-dark">ID</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Address</th>
+      <th>Delete</th>
+      <th>Edit</th>
+
+    </tr>
+    <tr *ngFor="let item of data">
+      <td>{{item.id}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.address}}</td>
+      <td><i (click)="deleteResto(item.id)" class="fa fa-trash" style="font-size:20px;color:red;"></i></td>
+      <td><a routerLink="/update/{{item.id}}"> <i class="fa fa-edit" style="font-size:20px;color:blue;"></i></a>
+      </td>
+    </tr>
+  </table>

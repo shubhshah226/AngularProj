@@ -1,0 +1,11 @@
+table, th, td {
+    border: 5px solid black;
+  }
+  td,th {
+    text-align: center;
+  }
+  tr:hover {background-color: yellow;}
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }

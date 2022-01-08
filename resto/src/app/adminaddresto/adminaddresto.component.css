@@ -1,0 +1,19 @@
+.card
+{
+    border: none;
+    width: 500px;
+    padding: 30px;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgb(107, 40, 170);
+}
+.card,label,h1
+{
+    color: white;
+}
+label
+{
+    color:white
+}
